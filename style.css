@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.calc-container{
+    height: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.6vmin;
+}
+
+.calculator{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+
+}
+
+.reset-btn{
+    height:13vmin;
+    width: 13vmin;
+    border-radius: 2vmin;
+    color: white;
+}
+.output-btn{
+    height: 13vmin;
+    width: 13vmin;
+    border-radius: 2vmin;
+    color: white;
+}
+.box{
+    height: 13vmin;
+    width: 13vmin;
+    border-radius: 2vmin;
+    background-color: rgba(29,29,30,255);
+    color: white;
+    font-size: 5vmin;
+}
+.calc-output{
+    width: 56.5vmin;
+    text-align: center;
+    background-color:black;
+    color: white;
+    height: 12vmin;
+    border-radius: 1.5vmin;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 5vmin;
+}
+.col1{
+    background-color: rgba(71,71,73,255);
+}
+.col2{
+    background-color: orange
+}
+.del-btn{
+    height: 13vmin;
+    width: 13vmin;
+    border-radius: 2vmin;
+    color: white;
+    font-size: 5vmin;
+}
+.fac-btn{
+    height: 13vmin;
+    width: 13vmin;
+    border-radius: 2vmin;
+    color: white;
+    font-size: 5vmin;
+}
